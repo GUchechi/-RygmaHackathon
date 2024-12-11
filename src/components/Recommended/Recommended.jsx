@@ -1,36 +1,40 @@
 import "./Recommended.css";
+import recommend1 from "../../images/recommend1.jpg";
+import recommend2 from "../../images/recommend2.jpg";
+import recommend3 from "../../images/recommend3.jpg";
+import recommend4 from "../../images/recommend4.jpg";
 
 const recommendedItems = [
   {
     id: 1,
-    image: "https://via.placeholder.com/150",
-    title: "Recommended Item 1",
-    description: "This is a short description for item 1.",
+    image: recommend1,
+    title: "You are Good",
+    description: "By Israel Hougthon",
   },
   {
     id: 2,
-    image: "https://via.placeholder.com/150",
-    title: "Recommended Item 2",
-    description: "This is a short description for item 2.",
+    image: recommend2,
+    title: "Omenma",
+    description: "By Frank Edwards",
   },
   {
     id: 3,
-    image: "https://via.placeholder.com/150",
-    title: "Recommended Item 3",
-    description: "This is a short description for item 3.",
+    image: recommend3,
+    title: "The Day",
+    description: "By PlanetShakers",
   },
   {
     id: 4,
-    image: "https://via.placeholder.com/150",
-    title: "Recommended Item 4",
-    description: "This is a short description for item 4.",
+    image: recommend4,
+    title: "Chance",
+    description: "By Willy",
   },
 ];
 
 const Recommended = () => {
   return (
     <section className="recommended">
-      <h2 className="section-title">Recommended for You</h2>
+      <h2 className="section-title">Recommended For You</h2>
       <div className="recommended-grid">
         {recommendedItems.map((item) => (
           <div className="recommended-card" key={item.id}>
