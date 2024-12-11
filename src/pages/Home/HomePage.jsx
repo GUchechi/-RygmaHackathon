@@ -9,8 +9,7 @@ const HomePage = () => {
       <Hero />
       <Recommended />
       <News />
-      <Recommended />
-      {/* <Community /> */}
+      <Community />
     </>
   );
 };
