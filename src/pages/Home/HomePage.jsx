@@ -1,3 +1,4 @@
+import Community from "../../components/community/community";
 import Hero from "../../components/Hero/Hero";
 import News from "../../components/News/News";
 import Recommended from "../../components/Recommended/Recommended";
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <Recommended />
       <News />
+      <Community />
     </>
   );
 };
