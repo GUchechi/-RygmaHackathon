@@ -33,7 +33,7 @@ const upcomingEvents = [
     title: "AI Innovations Summit",
     date: "May 10, 2025",
     description:
-      "Dive into the latest trends in AI at the AI Innovations Summit. Learn about the future of machine learning, neural networks, and more.",
+      "Dive into the latest trends in AI at the AI Innovation Summit. Learn about the future of machine learning, neural networks, and more.",
   },
 ];
 
