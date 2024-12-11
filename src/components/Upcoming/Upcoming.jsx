@@ -1,4 +1,3 @@
-import React from "react";
 import "./Upcoming.css";
 import recommend4 from "../../images/recommend4.jpg";
 
@@ -26,14 +25,6 @@ const upcomingEvents = [
     date: "May 10, 2025",
     description:
       "Dive into the latest trends in AI at the AI Innovations Summit. Learn about the future of machine learning, neural networks, and more.",
-  },
-  {
-    id: 3,
-    image: recommend4,
-    title: "AI Innovations Summit",
-    date: "May 10, 2025",
-    description:
-      "Dive into the latest trends in AI at the AI Innovation Summit. Learn about the future of machine learning, neural networks, and more.",
   },
 ];
 

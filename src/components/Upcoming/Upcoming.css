@@ -1,6 +1,6 @@
 .upcoming-section {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(135deg, #fff, #c471ed, var(--primary-color));
   color: white;
   text-align: center;
 }
