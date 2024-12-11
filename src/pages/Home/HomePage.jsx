@@ -1,18 +1,12 @@
-import "./HomePage.css";
+import Hero from "../../components/Hero/Hero";
+import Recommended from "../../components/Recommended/Recommended";
 
 const HomePage = () => {
   return (
-    <section className="home-container">
-      <div className="home-wrapper">
-        <div className="home-content">
-          <h3>
-            Welcome to <span className="brand">Rygma</span>
-          </h3>
-          <p>Your one-stop platform for exploring amazing Music Lyrics.</p>
-          <button className="button">Explore</button>
-        </div>
-      </div>
-    </section>
+    <>
+      <Hero />
+      <Recommended />
+    </>
   );
 };
 
