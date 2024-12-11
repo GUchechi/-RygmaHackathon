@@ -1,10 +1,8 @@
-import Community from "../../components/community/Community";  // Capitalized 'C'
+import Community from "../../components/community/Community"; // Capitalized 'C'
 import Hero from "../../components/Hero/Hero";
 import News from "../../components/News/News";
 import Recommended from "../../components/Recommended/Recommended";
-
-
-
+import Upcoming from "../../components/Upcoming/Upcoming.JSX";
 
 const HomePage = () => {
   return (
@@ -13,6 +11,7 @@ const HomePage = () => {
       <Recommended />
       <News />
       <Community />
+      <Upcoming />
     </>
   );
 };
