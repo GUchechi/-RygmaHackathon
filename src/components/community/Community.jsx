@@ -27,7 +27,7 @@ const communityMembers = [
   {
     id: 4,
     image: recommend2,
-    name: "Alice Johnson",
+    name: "Alice Willy",
     role: "UI/UX Designer",
     bio: "Alice focuses on creating beautiful, user-friendly designs that enhance the user experience.",
   },
