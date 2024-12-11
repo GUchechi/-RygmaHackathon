@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #1e90ff;
+  --secondary-color: #ffffff; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 70px; 
+  background-color: var(--secondary-color);
+}

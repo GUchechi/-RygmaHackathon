@@ -1,0 +1,118 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--glass-bg);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--glass-border);
+  border-radius: 0 0 10px 10px;
+  padding: 1.3rem 4rem;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid var(--glass-border);
+  border-radius: 5px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  outline: none;
+  box-shadow: 0px 4px 6px rgba(20, 102, 203, 0.2);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.8rem;
+  border-radius: 10px;
+}
+
+.nav-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 8px rgba(30, 144, 255, 0.3);
+}
+
+.menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-icon.rotate {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: #fff;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links a {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .menu-icon {
+    font-size: 1.3rem;
+  }
+}

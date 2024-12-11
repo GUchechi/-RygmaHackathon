@@ -1,0 +1,61 @@
+/* Container for the Not Found Page */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Content box styling */
+.not-found-content {
+  max-width: 600px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+/* Main heading for 404 */
+.not-found-content h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff4d4d;
+}
+
+/* Subheading */
+.not-found-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Description paragraph */
+.not-found-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Button to return home */
+.home-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.home-button:hover {
+  background: #0056b3;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
