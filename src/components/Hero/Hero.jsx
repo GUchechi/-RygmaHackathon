@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./Hero.css";
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
             Welcome to <span className="brand">Rygma</span>
           </h3>
           <p>Your one-stop platform for exploring amazing Music Lyrics.</p>
-          <button className="button">Explore</button>
+          <Link to="/lyrics" className="button">Explore</Link>
         </div>
       </div>
     </section>

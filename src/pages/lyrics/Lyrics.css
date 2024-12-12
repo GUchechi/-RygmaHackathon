@@ -1,0 +1,129 @@
+/* Music.css */
+.lyrics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, var(--primary-color), #92a5c8);
+  min-height: 100vh;
+  padding: 20px 0;
+  padding-top: 5rem;
+}
+
+.lyrics-container h1 {
+  font-size: 2.5em;
+  color: var(--secondary-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.lyrics-search--container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  border: none;
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+}
+
+.lyrics-button {
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lyrics-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.loading,
+.error {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.loading {
+  color: #007bff;
+}
+
+.error {
+  color: #ff3b30;
+}
+
+.lyrics {
+  max-width: 800px;
+  width: 90%;
+  padding: 30px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+  line-height: 1.6;
+}
+
+.lyrics h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.lyrics pre {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1em;
+}
+
+/* Animation for text */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-container,
+.lyrics {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@media (max-width: 600px) {
+  .lyrics-search--container {
+    flex-direction: column;
+  }
+  input[type="text"],
+  .lyrics-button {
+    width: 100%;
+  }
+  .lyrics {
+    width: 100%;
+  }
+}

@@ -5,6 +5,7 @@ import About from "./pages/about/About";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import NotFound from "./pages/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
+import Music from "./pages/lyrics/Lyrics";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/lyrics" element={<Music />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

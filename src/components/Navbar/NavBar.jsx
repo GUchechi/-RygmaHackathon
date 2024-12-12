@@ -14,8 +14,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">Rygma</div>
 
-      <div className="search-bar">
-        <input type="text" placeholder="Search..." />
+      <div className="welcome-bar">
+        <h3>Welcome to Rygma</h3>
       </div>
       <button
         className={`menu-icon ${isOpen ? "rotate" : ""}`}
