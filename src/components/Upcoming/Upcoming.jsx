@@ -4,7 +4,7 @@ import recommend4 from "../../images/recommend4.jpg";
 const upcomingEvents = [
   {
     id: 1,
-    image: recommend4,
+    image: "https://miro.medium.com/v2/resize:fit:1400/0*y6IcBe5J1AdALzXw.png",
     title: "ReactConf 2025",
     date: "March 20, 2025",
     description:
@@ -12,7 +12,8 @@ const upcomingEvents = [
   },
   {
     id: 2,
-    image: recommend4,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiBpP3cQnJNnN9anuEvtJ4t1t6d5xQl9UNgQ&s",
     title: "JavaScript Fest 2025",
     date: "April 15, 2025",
     description:
@@ -20,7 +21,8 @@ const upcomingEvents = [
   },
   {
     id: 3,
-    image: recommend4,
+    image:
+      "https://ik.imagekit.io/edtechdigit/usaii/content/images/the-15-most-popular-ai-tools-in-2023.jpg",
     title: "AI Innovations Summit",
     date: "May 10, 2025",
     description:
