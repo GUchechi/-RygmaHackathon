@@ -1,5 +1,6 @@
 import "./Recommended.css";
 import recommend3 from "../../images/recommend3.jpg";
+import { Link } from "react-router";
 
 const recommendedItems = [
   {
@@ -43,6 +44,13 @@ const Recommended = () => {
             <p className="card-description">{item.description}</p>
           </div>
         ))}
+      </div>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}
+      >
+        <Link to="/lyrics" className="button">
+          See More
+        </Link>
       </div>
     </section>
   );
