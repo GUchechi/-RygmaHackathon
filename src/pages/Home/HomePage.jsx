@@ -12,7 +12,7 @@ const HomePage = () => {
       <Recommended />
       <LyricMarquee />
       <News />
-      <Community />
+      {/* <Community /> */}
       <Upcoming />
     </>
   );
