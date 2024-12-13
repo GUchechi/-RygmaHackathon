@@ -1,5 +1,4 @@
 import "./Upcoming.css";
-import recommend4 from "../../images/recommend4.jpg";
 
 const upcomingEvents = [
   {
