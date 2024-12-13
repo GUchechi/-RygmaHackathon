@@ -4,15 +4,17 @@ import recommend1 from "../../images/recommend1.jpg";
 const newsItems = [
   {
     id: 1,
-    image: recommend1,
-    title: "Breaking News: React 18 Released",
-    date: "December 10, 2024",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
+    title: "Breaking News: K-Fest Hackathon",
+    date: "December 13, 2024",
     description:
-      "The React team has officially announced the release of React 18 with exciting new features like concurrent rendering.",
+      "The First ever Hackathon to be hosted by FWC is here! The Kingdom Technology Festival Hackathon!",
   },
   {
     id: 2,
-    image: recommend1,
+    image:
+      "https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png",
     title: "JavaScript Trends 2024",
     date: "December 8, 2024",
     description:
@@ -20,7 +22,8 @@ const newsItems = [
   },
   {
     id: 3,
-    image: recommend1,
+    image:
+      "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=",
     title: "AI and the Future of Web Development",
     date: "December 5, 2024",
     description:
