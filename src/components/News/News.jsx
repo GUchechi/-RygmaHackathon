@@ -1,5 +1,4 @@
 import "./News.css";
-import recommend1 from "../../images/recommend1.jpg";
 
 const newsItems = [
   {
