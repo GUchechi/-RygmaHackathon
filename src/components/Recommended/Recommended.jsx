@@ -1,7 +1,5 @@
 import "./Recommended.css";
-import recommend2 from "../../images/recommend2.jpg";
 import recommend3 from "../../images/recommend3.jpg";
-import recommend4 from "../../images/recommend4.jpg";
 
 const recommendedItems = [
   {

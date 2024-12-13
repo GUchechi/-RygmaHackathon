@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/lyrics">Find Lyrics</Link>
         <Link to="/about">About</Link>
-        <Link to="/team">Team</Link>
+        {/* <Link to="/team">Team</Link> */}
       </div>
     </nav>
   );
