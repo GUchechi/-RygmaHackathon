@@ -15,9 +15,24 @@
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  color: var(--primary-color);
+  background: linear-gradient(
+    45deg,
+    #1e90ff,
+    #104e8b
+  ); /* Gradient from light blue to dark blue */
+  -webkit-background-clip: text; /* Ensures the gradient is clipped to the text */
+  -webkit-text-fill-color: transparent; /* Makes the background visible inside the text */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  text-shadow: 0 4px 8px rgba(30, 144, 255, 0.3); /* Subtle blue shadow on hover */
 }
 
 .welcome-bar {

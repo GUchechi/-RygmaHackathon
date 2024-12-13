@@ -14,9 +14,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">Rygma</div>
 
-      <div className="welcome-bar">
+      {/* <div className="welcome-bar">
         <h3>Welcome to Rygma</h3>
-      </div>
+      </div> */}
       <button
         className={`menu-icon ${isOpen ? "rotate" : ""}`}
         onClick={toggleMenu}
@@ -25,8 +25,9 @@ const Navbar = () => {
       </button>
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <Link to="/">Home</Link>
+        <Link to="/lyrics">Find Lyrics</Link>
         <Link to="/about">About</Link>
-        <Link to="/profile">Profile</Link>
+        <Link to="/team">Team</Link>
       </div>
     </nav>
   );
