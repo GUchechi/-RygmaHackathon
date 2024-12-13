@@ -1,5 +1,4 @@
 import "./Recommended.css";
-import recommend1 from "../../images/recommend1.jpg";
 import recommend2 from "../../images/recommend2.jpg";
 import recommend3 from "../../images/recommend3.jpg";
 import recommend4 from "../../images/recommend4.jpg";
@@ -7,27 +6,30 @@ import recommend4 from "../../images/recommend4.jpg";
 const recommendedItems = [
   {
     id: 1,
-    image: recommend1,
+    image:
+      "https://res.cloudinary.com/godswilluchechi/image/upload/v1734053093/israel_1_m2supz.jpg",
     title: "You are Good",
     description: "By Israel Hougthon",
   },
   {
     id: 2,
-    image: recommend2,
-    title: "Omenma",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/Frank_Edwards_Frank_Edwards.jpg",
+    title: "Mma Mma",
     description: "By Frank Edwards",
   },
   {
     id: 3,
     image: recommend3,
-    title: "The Day",
+    title: "Turn it up",
     description: "By PlanetShakers",
   },
   {
     id: 4,
-    image: recommend4,
-    title: "Chance",
-    description: "By Willy",
+    image:
+      "https://www.ccmmagazine.com/wp-content/uploads/2019/01/Elevation-Worship-2019.jpg",
+    title: "Praise",
+    description: "Elevation Worship",
   },
 ];
 
