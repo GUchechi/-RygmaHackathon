@@ -1,6 +1,7 @@
 .recommended {
   padding: 3rem 4rem;
   background-color: var(--secondary-color);
+  margin-top: 2rem;
 }
 
 .section-title {
